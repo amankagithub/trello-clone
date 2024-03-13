@@ -1,0 +1,14 @@
+.card {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 10px;
+}
+
+.card-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: bisque;
+    text-align: center;
+}
