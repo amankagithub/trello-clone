@@ -1,5 +1,5 @@
 import './App.css'
-import { CardList } from './components/colums'
+import { CardLists } from './components/card-lists'
 
 
 function App() {
@@ -8,7 +8,9 @@ function App() {
         <div className='header'>
           <h1>Trello Clone App</h1>
         </div>
-        <CardList name="List of Cards"></CardList>
+        <div className='middle'>
+          <CardLists></CardLists>
+        </div>
     </>
   )
 }
