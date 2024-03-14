@@ -12,3 +12,20 @@
     color: bisque;
     text-align: center;
 }
+
+.card-list{
+  width: 260px;
+  border: 10px solid rgb(56, 53, 53);
+  text-align: center;
+}
+.cards-container{
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.card-list-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(234, 228, 220);
+    text-align: center;
+    margin: 5px;
+}
